@@ -1,0 +1,192 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment
+    android:id="@+id/map"
+    class="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/menubtn"
+        android:layout_width="160px"
+        android:layout_height="160px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20px"
+        android:background="@drawable/menuicon"
+        android:onClick="MenuBtnPress" />
+
+    <Button
+        android:id="@+id/eventbtn"
+        android:layout_width="160px"
+        android:layout_height="160px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20px"
+        android:background="@drawable/eventicon"
+        android:onClick="EventBtnPress" />
+
+    <Button
+        android:id="@+id/restbtn"
+        android:layout_width="160px"
+        android:layout_height="160px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200px"
+        android:background="@drawable/resticon"
+        android:onClick="RestBtnPress" />
+
+    <Button
+        android:id="@+id/barbtn"
+        android:layout_width="160px"
+        android:layout_height="160px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="380px"
+        android:background="@drawable/baricon"
+        android:onClick="BarBtnPress" />
+
+    <Button
+        android:id="@+id/parkbtn"
+        android:layout_width="160px"
+        android:layout_height="160px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="560px"
+        android:background="@drawable/parkicon"
+        android:onClick="ParkBtnPress" />
+
+    <Button
+        android:id="@+id/hotelbtn"
+        android:layout_width="160px"
+        android:layout_height="160px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="740px"
+        android:background="@drawable/enticon"
+        android:onClick="HotelBtnPress" />
+
+    <Button
+        android:id="@+id/shopbtn"
+        android:layout_width="160px"
+        android:layout_height="160px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="920px"
+        android:background="@drawable/shopicon"
+        android:onClick="ShopBtnPress" />
+
+    <Button
+        android:id="@+id/allbtn"
+        android:layout_width="160px"
+        android:layout_height="160px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="1100px"
+        android:background="@drawable/plusicon"
+        android:onClick="AllBtnPress" />
+
+    <Button
+        android:id="@+id/plusbtn"
+        android:layout_width="120px"
+        android:layout_height="120px"
+        android:layout_marginLeft="930px"
+        android:layout_marginTop="1460px"
+        android:background="@drawable/plusicon"
+        android:onClick="PlusBtnPress" />
+
+    <Button
+        android:id="@+id/minusbtn"
+        android:layout_width="120px"
+        android:layout_height="120px"
+        android:layout_marginLeft="930px"
+        android:layout_marginTop="1600px"
+        android:background="@drawable/minusicon"
+        android:onClick="MinusBtnPress" />
+
+
+    <Button
+        android:id="@+id/recbtn"
+        android:layout_width="160px"
+        android:layout_height="160px"
+        android:layout_marginLeft="900px"
+        android:layout_marginTop="20px"
+        android:background="@drawable/recicon"
+        android:onClick="RecBtnPress" />
+
+    <Button
+        android:id="@+id/qbtn"
+        android:layout_width="160px"
+        android:layout_height="160px"
+        android:layout_marginLeft="900px"
+        android:layout_marginTop="200px"
+        android:background="@drawable/qicon"
+        android:onClick="QBtnPress" />
+
+    <Button
+        android:id="@+id/q1btn"
+        android:layout_width="330px"
+        android:layout_height="137px"
+        android:layout_marginLeft="205px"
+        android:layout_marginTop="85px"
+        android:background="@drawable/q1perbtn"
+        android:onClick="QABtnPress" />
+
+    <Button
+        android:id="@+id/q2btn"
+        android:layout_width="330px"
+        android:layout_height="137px"
+        android:layout_marginLeft="537px"
+        android:layout_marginTop="85px"
+        android:background="@drawable/q2perbtn"
+        android:onClick="QABtnPress" />
+
+    <Button
+        android:id="@+id/q3btn"
+        android:layout_width="330px"
+        android:layout_height="137px"
+        android:layout_marginLeft="205px"
+        android:layout_marginTop="212px"
+        android:background="@drawable/q3perbtn"
+        android:onClick="QABtnPress" />
+
+    <Button
+        android:id="@+id/q4btn"
+        android:layout_width="330px"
+        android:layout_height="137px"
+        android:layout_marginLeft="537px"
+        android:layout_marginTop="212px"
+        android:background="@drawable/q4perbtn"
+        android:onClick="QABtnPress" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true">
+
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="210px"
+            android:layout_marginTop="35px"
+            android:text="How busy is your current location?"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:elevation="8dp"
+            app:fontFamily="sans-serif-medium" />
+
+
+        <Button
+            android:id="@+id/qpopupbg"
+            android:layout_width="900px"
+            android:layout_height="340px"
+            android:layout_marginLeft="180px"
+            android:layout_marginTop="20px"
+            android:background="@drawable/qpopuplayout"/>
+
+    </FrameLayout>
+
+
+</RelativeLayout>

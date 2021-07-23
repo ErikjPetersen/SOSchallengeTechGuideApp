@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Recommendation_page">
+
+
+    <Button
+        android:id="@+id/rec1"
+        android:layout_width="1080px"
+        android:layout_height="220px"
+        android:background="@drawable/recyh"
+        android:onClick="Rec1BtnPress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/rec2"
+        android:layout_width="1080px"
+        android:layout_height="220px"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/recph"
+        android:onClick="Rec1BtnPress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/rec3"
+        android:layout_width="1080px"
+        android:layout_height="220px"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/recph"
+        android:onClick="Rec1BtnPress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/rec4"
+        android:layout_width="1080px"
+        android:layout_height="220px"
+        android:layout_marginTop="240dp"
+        android:background="@drawable/recph"
+        android:onClick="Rec1BtnPress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/rec5"
+        android:layout_width="1080px"
+        android:layout_height="220px"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/recph"
+        android:onClick="Rec1BtnPress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/spon1"
+        android:layout_width="1080px"
+        android:layout_height="220px"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/recph"
+        android:onClick="Rec1BtnPress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/spon2"
+        android:layout_width="1080px"
+        android:layout_height="220px"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/recph"
+        android:onClick="Rec1BtnPress"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/Sponsor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="410dp"
+        android:elevation="8dp"
+        android:text="Sponsors:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-medium"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
